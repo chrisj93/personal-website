@@ -1,0 +1,54 @@
+.nav-link {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
+
+.ivory {
+    background-color: #fff6ea;
+}
+
+.sage {
+    background: linear-gradient(300deg, #fff6ea, #637E76, #fff6ea);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.banner-text-large {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.banner-text-medium {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.vibes-font {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+
+.gold {
+    color: #C69774;
+}
+
+@media (max-width: 992px) {
+    .banner-text-large {
+        font-family: 'Great Vibes', cursive;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .banner-text-medium {
+        font-family: 'Great Vibes', cursive;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .cloud-bookcase > img {
+        justify-content: center;
+        align-items: center;
+    }
+}
