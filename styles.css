@@ -8,20 +8,18 @@
 }
 
 .sage {
-    background: linear-gradient(300deg, #fff6ea, #637E76, #fff6ea);
-    background-size: 180% 180%;
+    background: linear-gradient(195deg, #fff6ea, #637E76, #fff6ea, #637E76);
+    background-size: 180% 180% 100%;
     animation: gradient-animation 18s ease infinite;
 }
 
 .banner-text-large {
     font-family: 'Great Vibes', cursive;
-    font-size: 5rem;
     text-align: center;
 }
 
 .banner-text-medium {
     font-family: 'Great Vibes', cursive;
-    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -35,10 +33,21 @@
 }
 
 @media (max-width: 992px) {
+
+    .logo {
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+    }
+
+    .menu > div {
+        padding-bottom: .8rem;
+    }
+    
     .banner-text-large {
         font-family: 'Great Vibes', cursive;
         font-size: 3rem;
         text-align: center;
+        padding-top: 20px;
     }
 
     .banner-text-medium {
@@ -47,20 +56,37 @@
         text-align: center;
     }
     
-    .cloud-bookcase > img {
+    .cloud-bookcase {
+        display: flex;
         justify-content: center;
         align-items: center;
     }
-}
 
-.logo {
-    display: flex;
-    justify-content: center;
-}
-
-@media (max-width: 785px) {
-    .logo {
-        justify-content: right;
-        padding-right: 3rem;
+    .cloud-bookcase > img {
+        height: 90px;
     }
+
+}
+
+@media (min-width: 992px) {
+
+    .rheader {
+        display: flex;
+        padding-top: 1.8rem;
+        padding-bottom: 1.8rem;
+    }
+
+    .logo > img {
+        height: 80px;
+    }
+
+    .menu > div {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+
+    .mdbanner {
+        padding-top: 3rem;
+    }
+
 }

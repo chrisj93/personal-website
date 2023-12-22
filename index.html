@@ -15,66 +15,87 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+
+    <style>
+        p {
+            margin-bottom: 0px;
+        }
+    </style>
 </head>
 
 <body class="ivory">
 
-    <header class="ivory d-flex flex-wrap justify-content-evenly align-items-center py-2 mb-0">
-        <img src="./images/C logo.png" alt="Chris's signature" height="125" style="padding-left: 10px;">
-        <a href="./index.html" class="nav-link " aria-current="page" style="text-align: center;"><p class="gold">Home</p></a>
-        <a href="./contact.html" class="nav-link" aria-current="page" style="text-align: center;"><p class="gold">Contact</p></a>
-        <a href="https://chrisj93.github.io/upgraded-resume/" class="nav-link" style="text-align: center;"><p class="gold">R&eacutesum&eacute</p></a>
-        <a href="https://www.linkedin.com/in/cjaroszewski/" class="nav-link" style="text-align: center;"><p class="gold">Linkedin</p></a>
+    <header>
+        <div class="rheader">
+            <div class="logo d-flex justify-content-center">
+                <img src="./images/C logo.png" alt="C logo" height="60px">
+            </div>
+            <div class="menu ivory d-flex align-items-center mb-0">
+
+                <div class="col">
+                    <a href="./index.html" class="nav-link" aria-current="page" style="text-align: center;"><p class="gold" style="font-size: 1.5rem;">Home</p></a>
+                </div>
+
+                <div class="col">
+                    <a href="./contact.html" class="nav-link" aria-current="page" style="text-align: center;"><p class="gold" style="font-size: 1.5rem;">Contact</p></a>
+                </div>
+
+                <div class="col">
+                    <a href="https://chrisj93.github.io/upgraded-resume/" class="nav-link" style="text-align: center;"><p class="gold" style="font-size: 1.5rem;">R&eacutesum&eacute</p></a>
+                </div>
+
+                <div class="col">
+                        <a href="https://www.linkedin.com/in/cjaroszewski/" class="nav-link" style="text-align: center;"><p class="gold" style="font-size: 1.5rem;">Linkedin</p></a>
+                </div>
+
+            </div>
+        </div>
     </header>
 
     <div class="sage">
-        <div class="row pt-5">
-            <div class="cloud-bookcase col-lg-1 col-sm-12 ps-5">
-                <img src="./images/book cloud.png" alt="book case cloud" height="160">
+        <div class="row pt-3">
+            <div class="cloud-bookcase col-lg-1 col-sm-12">
+                <img src="./images/book cloud.png" alt="book case cloud" height="140px">
             </div>
             <div class="col">
                 <p class="banner-text-large text-muted">Hello! I 'm Chris</p>
-                <br>
-                <br>
-                <div class="d-flex justify-content-evenly align-items-center">
+                <div class="mdbanner d-flex justify-content-evenly align-items-center">
                     <div>
-                        <p class="banner-text-medium text-muted">Management</p>
+                        <p class="banner-text-medium text-muted fs-1">Management</p>
                     </div>
                     <div>
                         <img src="./images/vertdivider.png" alt="vertical divider" height="120x">
                     </div>
                     <div>
-                        <p class="banner-text-medium text-muted">Strategy</p>
+                        <p class="banner-text-medium text-muted fs-1">Strategy</p>
                     </div>
                     <div>
                         <img src="./images/vertdivider.png" alt="vertical divider" height="120x">
                     </div>
                     <div>
-                        <p class="banner-text-medium text-muted">Web Development</p>
+                        <p class="banner-text-medium text-muted fs-1">Web Development</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-                <img src="./images/books bottom.png" alt="book shelf">
+        <div class="d-flex justify-content-end">
+            <img src="./images/books bottom.png" alt="book shelf" height="90px">
         </div>
     </div>
 
-    <div class="ivory p-5 text-center rounded-3">
-        <br>
-        <img src="./images/profile pic.png" alt="Chris profile picture" style="border-radius: 50%; height: 200px; width: 220px">
-        <br>
+    <div class="ivory pt-5 text-center rounded-3">
+        <img src="./images/profile pic.png" alt="Chris profile picture" style="border-radius: 50%; height: 150px; width: 155px;">
         <br>
         <br>
-        <h1 class="gold" style="font-family: 'Great Vibes', cursive; font-size: 4rem; padding-bottom: 0px; margin-bottom: 0px;">I 'm passionate about:</h1>
+        <h1 class="gold banner-text-large" style="font-family: 'Great Vibes', cursive; padding-bottom: 1rem; padding-top: 10px; margin-bottom: 0px;">I 'm passionate about:</h1>
     </div>
         
     <div class="container py-0 my-0">
         <div class="ivory row g-4 pb-5 row-cols-1 row-cols-lg-3">
             <div class="col d-flex justify-content-center">
                 <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                    <img src="./images/books icon.png" alt="books icon" height="60px">            
+                    <img src="./images/books icon.png" alt="books icon" height="45px">            
                 </div>
                 <div>
                     <h3 class="fs-1 gold" style="font-family: 'Great Vibes', cursive; padding-top: 15px;">Books</h3>
@@ -82,7 +103,7 @@
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                <img src="./images/basketball icon.png" alt="basketball icon" height="60px">
+                <img src="./images/basketball icon.png" alt="basketball icon" height="50px">
                 </div>
                 <div>
                     <a href="https://chrisj93.github.io/nba-fantasy-clubhouse/" style="text-decoration: none;"><h3 class="fs-1 gold" style="font-family: 'Great Vibes', cursive; padding-top: 15px;">Basketball</h3></a>
@@ -90,7 +111,7 @@
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                    <img src="./images/ADA icon.png" alt="bitcoin icon" height="60px">              
+                    <img src="./images/ADA icon.png" alt="bitcoin icon" height="45px">              
                 </div>
                 <div>
                 <h3 class="fs-1 gold" style="font-family: 'Great Vibes', cursive; padding-top: 15px;">Blockchain</h3>
@@ -99,12 +120,14 @@
         </div>
     </div>
 
-    <div class="d-flex justify-content-center"><img src="./images/horzdivider.png" alt="horizontal divider"></div>
+    <div class="d-flex col justify-content-center">
+        <img src="./images/horzdivider.png" alt="horizontal divider" height="70px">
+    </div>
 
     <div class="p-5 text-center rounded-3">
         <h1 class="vibes-font text-muted" style="font-size: 3rem;">Get in touch</h1>
         <br>
-        <p class="vibes-font col-lg-8 mx-auto text-muted" style="font-size: 2.5rem;">
+        <p class="vibes-font col-lg-8 mx-auto text-muted fs-1">
           If you wanna talk about any of the above or if you'd like a quote for proposal <img src="./images/smiley.png" alt="smiley face" height="40px">
         </p>
         <br>
@@ -117,19 +140,12 @@
 
         <div class="sage">
         <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-5 mt-0 border-top">
-            <p class="vibes-font col-md-4 mb-0 text-muted" style="font-size: 1.5rem;">© 2023 Chris A. Jaroszewski A&ntilde;azco</p>
-        
-            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <footer class="d-flex flex-wrap justify-content-evenly align-items-center py-5 my-0 border-top">        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-0 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                 <img src="./images/C logo.png" alt="C logo" height="50px">          
-                </a>
-        
-            <ul class="nav col-md-4 justify-content-end">
-                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="https://chrisj93.github.io/upgraded-resume/" class="nav-link px-2 text-muted">R&eacutesum&eacute</a></li>
-                <li class="nav-item"><a href="https://www.linkedin.com/in/cjaroszewski/" class="nav-link px-2 text-muted">Linkedin</a></li>
-                <li class="nav-item"><a href="./contact.html" class="nav-link px-2 text-muted">Contact</a></li>
-            </ul>
+            </a>
+            <p class="vibes-font col-md-4 mb-0 text-muted" style="font-size: 1.5rem;">© 2023 Chris A. Jaroszewski A&ntilde;azco</p>
+
             </footer>
         </div>
         </div>
