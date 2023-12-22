@@ -35,16 +35,26 @@
 @media (max-width: 992px) {
 
     .logo {
+        display: flex;
+        justify-content: center;
         padding-top: .8rem;
         padding-bottom: .8rem;
     }
 
-    .menu > div {
-        padding-bottom: .8rem;
+    .menu {
+        display: flex;
     }
 
-    .lg-p {
-        font-size: 1.5rem;
+    .menu-text {
+        font-family: 'Great Vibes', cursive;
+        font-size: 1.4rem;
+        text-align: center;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+
+    .menu > div {
+        padding-bottom: .8rem;
     }
     
     .banner-text-large {
@@ -63,6 +73,10 @@
     .vertdiv {
         height: 90px;
     }
+
+    .horzdiv > img {
+        height: 50px;
+    }
     
     .cloud-bookcase {
         display: flex;
@@ -72,6 +86,52 @@
 
     .cloud-bookcase > img {
         height: 90px;
+    }
+
+    .bottom-row-books {
+        display: flex;
+        justify-content: right;
+    }
+
+    .bottom-row-books > img {
+        height: 90px;
+    }
+
+    .profile-pic {
+        height: 165px; 
+        width: 175px;
+    }
+
+    .free-flow {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .smiley {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .contactme-btn {
+        font-size: 1.5rem;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .footerlogo > img {
+        height: 40px;
+    }
+
+    .copyright-text {
+        font-size: 1.1rem;
     }
 
 }
@@ -86,6 +146,7 @@
 
     .logo {
         padding-left: 9rem;
+        flex: .1;
     }
 
     .logo > img {
@@ -95,21 +156,119 @@
     .menu {
         display: flex;
         justify-content: space-between;
-        padding-left: 7rem;
+        padding-left: 5rem;
+        flex: 1.5;
+    }
+
+    .menu-text {
+        font-family: 'Great Vibes', cursive;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: lighter;
+        text-decoration: none;
     }
 
     .menu > div {
         padding-top: .5rem;
         padding-bottom: .5rem;
-        padding-left: 9rem;
     }
 
-    .lg-p {
+    .fit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cloud-bookcase > img {
+        height: 150px;
+        margin-left: 1rem;
+        margin-top: .7rem;
+    }
+
+    .top-banner {
+        margin-top: .7rem;
+    }
+
+    .top-banner > p {
+        padding-right: 14.2rem;
+    }
+
+    .top-banner > div {
+        padding-right: 9rem;
+    }
+
+    .banner-text-large {
+        font-family: 'Great Vibes', cursive;
+        font-size: 5rem;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .mid-banner {
+        margin-top: 1.5rem;
+    }
+
+    .banner-text-medium {
+        font-family: 'Great Vibes', cursive;
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .vertdiv {
+        height: 150px;
+    }
+
+    .bottom-row-books {
+        display: flex;
+        justify-content: right;
+    }
+
+    .bottom-row-books > img {
+        width: 100vw;
+    }
+
+    .profile-pic {
+        height: 270px; 
+        width: 295px;
+    }
+
+    .free-flow {
+        margin-top: 1.9rem;
+    }
+
+    .smiley {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .contactme-btn {
         font-size: 2rem;
     }
 
-    .mdbanner {
-        padding-top: 3rem;
+    .footer {
+        display: flex;
+    }
+
+    .footerlogo {
+        flex: 1;
+    }
+
+    .footerlogo > img {
+        height: 80px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .copyright {
+        display: flex;
+        flex: 1;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .copyright-text {
+        font-size: 1.5rem;
     }
 
 }
